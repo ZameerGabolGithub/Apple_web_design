@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav{
+    background-color: black;
+    opacity: .5;
+    color:white;
+    padding: 20px;
+   
+}
+nav > .navbar{
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    font-size: 17px;
+}
+
+nav > .navbar > .icons{
+    display: flex;
+    gap: 20px;
+}
+
+#icon{
+    display:none;
+}
+
+#apple{
+    font-size: 22px;
+}
+
+ @media (max-width: 834px)
+{
+    nav{
+        display: flex;
+        align-items: center;
+    }
+    #icon{
+        display: flex;
+    }
+    nav > .content > span{
+        display: none;
+        
+    }
+    nav > .content > .icons{
+        position: absolute;
+        right: 20px;
+    }
+    #apple{
+        position: absolute;
+        left: 30px;
+
+    }
+
+} 
+ 
+.parent{
+    height: 583px;
+    width: 100%;
+    background-image: url("hero_apple_vision_pro__e8407ehady6i_medium.jpg");
+     /* background-image: url("https://cdn.thewirecutter.com/wp-content/media/2022/01/buttonupshirts-2048px-DSCF0679-2x1-1.jpg?auto=webp&quality=75&crop=2:1&width=1024"); */
+    background-repeat: no-repeat; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: fixed;
+    
+}
+
+.home >.box> h1{
+    font-size: 90px;
+}
+.home > .box {
+    width: 500px;
+    text-align: center;
+}
+
+.home >.box> p{
+    font-size: 24px;
+}
+
+.homelink{
+    margin: 5px 10px;
+    font-size: 20px;
+    color: #2268b1;
+    text-decoration: none;
+}
+.phone{
+    height: 650px;
+    width: 100%;
+    background-image: url("hero_iphone15pro__i70z9oz3hj2i_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+   
+}
+.phone_dec{
+    text-align: center;
+    padding: 20px 20px;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+    align-items: center;
+    padding: 20px 20px;
+    gap: 20px;
+
+}
+
+.grid > .column{
+    width: 550px;
+    height: 430px;
+    margin: 0px 0px;
+    
+    background-image: url("promo_apple_watch_series_9_order__b3u85rm9zf6u_medium.jpg");
+    background-repeat: no-repeat;
+} 
+ 
+.grid > .col{
+    border-radius: 10px;
+    border-color: black;
+    width: 490px;
+    height: 400px;
+    margin: 0px 0px;
+    background-image: url("promo_apple_watch_ultra2_order__dyxqj5ia98om_medium.jpg");
+    background-repeat: no-repeat;
+}
+
+
+@media (max-width: 931px){
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    .grid > .column{
+        height: 430px;
+        display: flex;
+    }
+    .grid > .col{
+        height: 430px;
+        display: flex;
+    }
+
+}
+
+
+footer{
+    background-color: rgb(201, 201, 201);
+    color: rgb(103, 103, 103);
+}
+
+footer > .up{
+    text-align: justify;
+
+}
+footer > .down >.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}
+li{
+    list-style: none;
+}
+
+
+
+
